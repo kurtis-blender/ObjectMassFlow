@@ -2,6 +2,30 @@
 body {
     color: white;
 }
+a {color: red;}
 img {
     width: 400px;
+    border: 1px solid white;
+}
+h1 {font-family: "Bembo Bold";}
+
+ul {
+    font-family: "Bembo SemiBold Italic";
+    font-size: x-large;}
+
+p {
+    font-family: "Bembo";
+}
+
+@font-face {
+    font-family: "Bembo Bold";
+    src: url(Fonts/BemboStd-Bold.ttf);
+}
+@font-face {
+        font-family: "Bembo";
+        src: url(Fonts/BemboStd.ttf);
+}
+@font-face {
+    font-family: "Bembo SemiBold Italic";
+    src: url(Fonts/BemboStd-SemiboldItalic.ttf);
 }
