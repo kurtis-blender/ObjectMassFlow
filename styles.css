@@ -1,20 +1,60 @@
-* {background-color: black;}
-body {
-    color: white;
-}
+*{background-color: black;}
+body {color: white;}
 a {color: red;}
-img {
-    width: 400px;
-    border: 1px solid white;
+
+.parent{
+    background-color: red;
+    position: relative
 }
-h1 {font-family: "Bembo Bold";}
 
-ul {
+.title{
+    text-align: center;
+    font-family: "Bembo Bold";
+}
+
+.Roots{
+    height: 599px;
+    border: 2px solid white;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin:3px
+}
+
+.pages{
     font-family: "Bembo SemiBold Italic";
-    font-size: large;}
+    font-size: 24px;
+    width: 300px;
+    border: 2px solid white;
+    padding: 6px;
+    margin: 3px;
+    position: absolute;
+    right: 50%;
+    top: 0px
+}   
 
-p {
+.description {
     font-family: "Bembo";
+    font-size: 20px;
+    border: 2px solid white;
+    width: 300px;
+    padding: 6px;
+    margin: 3px;
+    position: absolute;
+    right: 50%;
+    top: 233px;
+}
+
+.Links {
+    font-family: "Bembo";
+    font-size: 20px;
+    border: 2px solid white;
+    width: 300px;
+    padding: 6px;
+    margin: 3px;
+    position: absolute;
+    right: 50%;
+    top: 467px;
 }
 
 @font-face {
