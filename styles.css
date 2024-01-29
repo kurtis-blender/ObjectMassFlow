@@ -1,4 +1,4 @@
-*{background-color: black;}
+* {background-color: black;}
 body {color: white;}
 a {color: red;}
 
@@ -26,7 +26,7 @@ a {color: red;}
     font-size: 24px;
     width: 20%;
     border: 2px solid white;
-    padding: 6px;
+    padding: 9px;
     margin: 3px;
     position: absolute;
     right: 50%;
@@ -38,11 +38,11 @@ a {color: red;}
     font-size: 20px;
     border: 2px solid white;
     width: 20%;
-    padding: 6px;
+    padding: 9px;
     margin: 3px;
     position: absolute;
     right: 50%;
-    top: 233px;
+    top: 340px;
 }
 
 .Links {
@@ -50,11 +50,11 @@ a {color: red;}
     font-size: 20px;
     border: 2px solid white;
     width: 20%;
-    padding: 6px;
+    padding: 9px;
     margin: 3px;
     position: absolute;
     right: 50%;
-    top: 444px;
+    top: 558px;
 }
 
 @font-face {
