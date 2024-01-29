@@ -23,7 +23,7 @@ a {color: red;}
 
 .pages{
     font-family: "Bembo SemiBold Italic";
-    font-size: 24px;
+    font-size: 22px;
     width: 20%;
     border: 2px solid white;
     padding: 9px;
@@ -42,7 +42,7 @@ a {color: red;}
     margin: 3px;
     position: absolute;
     right: 50%;
-    top: 340px;
+    top: 310px;
 }
 
 .Links {
@@ -54,7 +54,7 @@ a {color: red;}
     margin: 3px;
     position: absolute;
     right: 50%;
-    top: 558px;
+    top: 528px;
 }
 
 @font-face {
