@@ -39,7 +39,7 @@ a {color: red;}
     grid-column: 2;
     grid-row: 2;
     padding-inline-start: 20px;
-    padding: 2px
+    padding: 2px;
     align-self: end;
     font-family: "Bembo";
     font-size: 1.1rem;
@@ -50,7 +50,7 @@ a {color: red;}
     grid-column: 2;
     grid-row: 3;
     padding-inline-start: 20px;
-    padding: 2px
+    padding: 2px;
     font-family: "Bembo";
     font-size: 1.1rem;
 }
