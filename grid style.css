@@ -44,6 +44,7 @@ strong {font-family: "Bembo Bold";}
     grid-column: 2;
     grid-row: 2;
     padding-inline-start: 20px;
+    padding-inline-end: 2px;
     align-self: end;
     font-family: "Bembo";
     font-size: 1.1rem;
@@ -78,4 +79,35 @@ strong {font-family: "Bembo Bold";}
 @font-face {
     font-family: "Bembo ExtraBold Italic";
     src: url(Fonts/BemboStd-ExtraBoldItalic.woff2);
+}
+
+
+
+@media all and (max-width: 600px) {
+    .content {
+        display: grid;
+        grid-template-columns:  0.25fr 1fr 0.25fr;
+        grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr;
+        gap: 5px;
+    }
+    .roots {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .pages {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .description {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .links {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
 }
