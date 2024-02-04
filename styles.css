@@ -1,67 +1,44 @@
 * {background-color: black;}
 body {color: white;}
-a {color: red;}
-
-.content{
-    position: relative
-}
+a {color: red;
+    text-decoration: none;}
+.body {font-family: "Bembo";}
+.i {font-family: "Bembo Italic";}
 
 .title{
     text-align: center;
     font-family: "Bembo Bold";
+    text-decoration: underline red;
 }
 
-.Roots{
-    width: 32.75%;
-    border: 2px solid white;
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    margin:3px
+.content {
+    display: grid;
+    grid-template-columns: 0.25fr 1.25fr 0.25fr;
+    grid-template-rows: 1fr;
+    
 }
 
-.writing{
-    position: relative; 
-    left: 50%;
-    width: 32.75%;
-}
-
-.pages{
-    font-family: "Bembo SemiBold Italic";
-    font-size: 1.375rem;
-    border: 2px solid white;
-    padding: 9px;
-    margin: 3px;
-    position: absolute;
-}   
-
-.description {
+.about{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
     font-family: "Bembo";
-    font-size: 1.25rem;
-    border: 2px solid white;
-    padding: 9px;
-    margin: 3px;
-    position: absolute;
+    font-size: 1.2em;
 }
 
-.Links {
-    font-family: "Bembo";
-    font-size: 1.25rem;
-    border: 2px solid white;
-    padding: 9px;
-    margin: 3px;
-    position: absolute;
-}
-
-@font-face {
-    font-family: "Bembo Bold";
-    src: url(Fonts/BemboStd-Bold.ttf);
-}
 @font-face {
         font-family: "Bembo";
-        src: url(Fonts/BemboStd.ttf);
+        src: url(Fonts/BemboStd.woff2);
+}
+@font-face {
+    font-family: "Bembo Bold";
+    src: url(Fonts/BemboStd-Bold.woff2);
+}
+@font-face {
+    font-family: "Bembo Italic";
+    src: url(Fonts/BemboStd-Italic.woff2);
 }
 @font-face {
     font-family: "Bembo SemiBold Italic";
-    src: url(Fonts/BemboStd-SemiboldItalic.ttf);
+    src: url(Fonts/BemboStd-SemiboldItalic.woff2);
 }
